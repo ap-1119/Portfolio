@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(38, 3, 94);
+    color: beige;
+    font-family: "Amita", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Amita", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 30px;
+ }
+      
+nav{
+    margin-top: 20px;
+    display: flex;
+    height: 100px;
+    background-color: rgb(86, 47, 176);
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 20px;
+}
+.right{
+    font-size: 25px;
+}
+.left{
+    font-size: 35px;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 150px;
+    border: 20px;
+}
+.first div{
+    width: 110%;
+}
+.leftsection{
+    font-size: 40px;
+    width: 60%;
+    align-content: center;
+}
+.leftsection .btn{
+    padding: 20px;
+    background-color: rgb(38, 3, 94);
+    border-style:solid;
+    border-radius: 20px;
+    border-color: black;
+    color: white;
+    margin:10px;
+}
+.rightsection{
+    width: 50%;
+    margin: 50px;
+}
+a{
+    color: whitesmoke;
+}
+a:hover{
+    color: gray;
+    font-size: 2rem;
+}
+#element{
+    color:blueviolet;
+}
+main{
+    margin-top: -60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
