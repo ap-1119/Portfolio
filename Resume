@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshaya Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Akshaya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="internship.html">Internship</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hello I am Akshaya! Welcome to my Profile...
+                I have my proficiency in - <br>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn" onclick="window.open('Akshaya Resume.pdf', '_blank')">Download Resume
+                    <button class="btn" onclick="window.open('github.com/ap-1119', '_blank')">Visit Github
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="dev_image.png" height="80%">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ["HTML","CSS","JavaScript","MySQL"],
+          typeSpeed: 150
+        });
+      </script>
+</body>
+</html>
