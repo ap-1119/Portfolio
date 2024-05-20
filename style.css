@@ -261,7 +261,7 @@ main{
     background-color: #0056b3;
     color: white;
     border: 2px solid white;
-    box-shadow: 0 0 5px white, 0 0 25px white;
+    box-shadow: 0 0 5px rgb(26, 44, 146), 0 0 25px rgb(69, 102, 220);
     cursor: pointer;
     transform:scale(1.1)
   }
