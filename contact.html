@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="index.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital@0;1&family=Reddit+Sans+Condensed:wght@200..900&family=Satisfy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akshaya Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Akshaya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <!-- <li><a href="project.html">Projects</a></li> -->
+                    <li><a href="internship.html">Internship</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="contact-container">
+        <div class="left-section">
+          <div class="contact-info">
+            <img src="email.png" alt="Email Icon" class="icon">
+            <p>akshayapatil0303@gmail.com</p>
+          </div>
+          <div class="contact-info">
+            <img src="web.png" alt="Email Icon" class="icon">
+            <p>https://ap-1119.github.io/Portfolio/</p>
+        </div>
+        </div>
+        <div class="right-section">
+          <form class="contact-form" id="contactForm" action="#" method="post">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+          <div id="errorMessages" style="color: red;"></div>
+        </div>
+      </div>
+</body>
