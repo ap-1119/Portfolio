@@ -253,3 +253,49 @@ main{
   .contact-form button:hover {
     background-color: #0056b3;
   }
+
+
+  .container {
+    margin-top: 150px;
+    margin-left: 400px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+  }
+  .internship h1 {
+    color: black ;
+    margin-bottom: 20px;
+  }
+  
+  .internship h2 {
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .internship p {
+    color: #000000;
+    margin: 5px 0;
+    font-size: 25px;
+  }
+  .project-work h3, .certification h3 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  
+  .project-work, .certification {
+    margin-top: 40px;
+  }
+  
+  .project-work img, .certification img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
