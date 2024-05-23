@@ -37,3 +37,12 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     // document.getElementById('contactForm').submit();
   }
 });
+src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"
+var typed = new Typed('#element', {
+  strings: ["HTML","CSS","JavaScript","MySQL"],
+  typeSpeed: 150
+});
+
+
+
+
