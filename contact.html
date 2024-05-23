@@ -6,6 +6,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital@0;1&family=Reddit+Sans+Condensed:wght@200..900&family=Satisfy&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
+
+  <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akshaya Portfolio</title>
@@ -42,9 +49,16 @@
             <input type="email" id="email" name="email" placeholder="Your Email" required>
             <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
             <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn">Submit</button>
+            <button type="submit">Submit</button>
           </form>
           <div id="errorMessages" style="color: red;"></div>
         </div>
       </div>
+      <script>
+        const cursor = new MouseFollower({
+         container: document.body,
+         speed: 0.3
+     });
+     </script>
 </body>
+</html>
