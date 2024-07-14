@@ -1,8 +1,7 @@
 body{
     background-color: rgb(38, 3, 94);
     color: white;
-    
-    font-family: "Playfair Display", serif;
+    font-family: 'Satisfy', cursive;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -16,24 +15,30 @@ nav{
     display: flex;
     height: 100px;
     background-color: rgb(86, 47, 176);
-    justify-content: center;
-    align-items: center;
     transition: .3s;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    
 }
 nav ul{
     display: flex;
     justify-content: center;
+    
 }
 nav ul li{
     list-style-type: none;
     margin: 20px;
+    margin-left: 1em;
+    
 }
 .right{
     font-size: 25px;
 }
 .left{
-    font-size: 35px;
     padding-right: 300px;
+    font-size: 2.2em;
+    
 }
 .first{
     display: flex;
@@ -54,7 +59,7 @@ nav ul li{
     background: transparent;
     border: 2px solid white;
     color: white;
-    margin: 5px;px;
+    margin: 5px;
     font-size: 15px;
     text-decoration: none;
     font-weight: bold;
@@ -75,10 +80,13 @@ nav ul li{
 }
 a{
     color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.3em;
 }
 a:hover{
     color: rgb(0, 0, 0);
-    font-size: 1.6rem;
+    font-size: 1.7em;
+    text-decoration:underline;
 }
 #element{
     color:blueviolet;
@@ -169,6 +177,9 @@ main{
 .about-me-left, .about-me-right {
     width: 75%;
     text-align: left;
+    border: solid black;
+    border-width: 6px;
+    padding: 50px;
 }
 .about-me-left {
     text-align: left;
@@ -186,13 +197,19 @@ main{
  
  
 .contact-container {
-    margin-top: 170px;
+    margin-top: 120px;
     margin-left: 350px;
     display: flex;
     width: 800px;
     height: 400px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .contact-info a:hover{
+    font-size: larger;
+    color: #fff;
+    text-decoration: underline;
   }
   
   .left-section {
@@ -211,7 +228,7 @@ main{
     align-items: center;
     margin-bottom: 20px;
   }
-  
+
   .icon {
     width: 40px;
     height: 40px;
@@ -250,7 +267,7 @@ main{
     transition: background-color 0.3s ease;
     border: 2px solid white;
     color: white;
-    margin: 5px;px;
+    margin: 5px;
     font-size: 15px;
     text-decoration: none;
     font-weight: bold;
@@ -311,3 +328,38 @@ main{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
   }
+
+  header {
+    background-color: #000000;
+    padding: 1em 0;
+}
+#projects {
+    padding: 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.project {
+    background-color: rgb(10, 10, 10);
+    padding: 2em;
+    margin: 1em 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.project h3 {
+    margin-top: 0;
+    font-family: 'Reddit Sans Condensed', sans-serif;
+}
+
+.project p {
+    line-height: 1.6;
+}

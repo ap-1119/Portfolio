@@ -46,3 +46,18 @@ var typed = new Typed('#element', {
 
 
 
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const projectElements = document.querySelectorAll('.project');
+  projectElements.forEach(project => {
+      project.addEventListener('mouseover', () => {
+          gsap.to(project, { scale: 1.05 });
+      });
+      project.addEventListener('mouseout', () => {
+          gsap.to(project, { scale: 1 });
+      });
+  });
+});
